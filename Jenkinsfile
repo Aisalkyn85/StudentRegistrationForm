@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('gitcheckout') {
             steps {
-                git branch: 'main', url: 'https://github.com/tirucloud/student-registration-form.git'
+                git branch: 'main', url: 'https://github.com/Aisalkyn85/StudentRegistrationForm.git'
             }
         }
         stage('npminit') {
